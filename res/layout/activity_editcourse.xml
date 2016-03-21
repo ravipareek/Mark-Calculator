@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/EditText1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Name of class" android:ems="10" android:inputType="textCapWords" />
+    <EditText android:id="@id/EditText2" android:layout_width="100.0dip" android:layout_height="50.0dip" android:hint="KU %" android:ems="10" android:inputType="numberDecimal" />
+    <EditText android:id="@id/EditText3" android:layout_width="100.0dip" android:layout_height="50.0dip" android:hint="MC %" android:ems="10" android:inputType="numberDecimal" />
+    <EditText android:id="@id/EditText4" android:layout_width="100.0dip" android:layout_height="50.0dip" android:hint="TI %" android:ems="10" android:inputType="numberDecimal" />
+    <EditText android:id="@id/EditText5" android:layout_width="100.0dip" android:layout_height="50.0dip" android:hint="C %" android:ems="10" android:inputType="numberDecimal" />
+    <Button android:id="@id/saveButton" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="150.0dip" android:text="Save" android:onClick="saveInfo" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/disclaimer" android:title="Disclaimer" />
+    <item android:id="@id/howTo" android:title="Important" />
+    <item android:id="@id/resetThisClass" android:title="Reset Marks for This Class" />"
+</menu>
