@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textAppearance="{2:16842816}" android:layout_gravity="0x5" android:id="false" android:layout_width="-2" android:layout_height="-2" android:hint="Average" />
+	<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="-10dp" android:text="+" />
+	<TextView android:textSize="24sp" android:gravity="0x11" android:id="false" android:layout_width="-1" android:layout_height="-2" android:showDividers="0x2" />
+	<ScrollView android:id="false" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<HorizontalScrollView android:id="false" android:layout_width="-2" android:layout_height="-2">
+			<TableLayout android:id="false" android:layout_width="-1" android:layout_height="-2">
+				<TableRow android:id="false" android:layout_width="-1" android:layout_height="-2" android:baselineAligned="false" />
+				<TableRow android:id="false" android:layout_width="-1" android:layout_height="250dp" android:baselineAligned="false">
+					<TextView android:textSize="18sp" android:textColor="resourceId:0x1060014" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Entry Name" android:showDividers="0x2" />
+					<TextView android:textSize="18sp" android:textColor="resourceId:0x1060014" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:text="Mark" android:showDividers="0x2" />
+					<TextView android:textSize="18sp" android:textColor="resourceId:0x1060014" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:text="Category" android:showDividers="0x2" />
+					<TextView android:textSize="18sp" android:textColor="resourceId:0x1060014" android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="16dp" android:text="W/o Weights" android:showDividers="0x2" />
+				</TableRow>
+			</TableLayout>
+		</HorizontalScrollView>
+	</ScrollView>
+	<LinearLayout android:gravity="0x50" android:layout_gravity="0x50" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<View android:id="false" android:background="resourceId:0x1060000" android:visibility="0" android:layout_width="-1" android:layout_height="1677722unknown unit:0x31" android:layout_marginTop="35dp" />
+		<TextView android:id="false" android:layout_width="100dp" android:layout_height="-2" android:text="KU Mark:" android:ems="10" />
+		<TextView android:id="false" android:layout_width="50dp" android:layout_height="-2" android:layout_marginLeft="75dp" android:layout_marginTop="-17dp" android:hint="-%" android:ems="10" />
+		<TextView android:id="false" android:layout_width="101dp" android:layout_height="-2" android:layout_marginLeft="200dp" android:layout_marginTop="-20dp" android:text="MC Mark:" android:ems="10" />
+		<TextView android:id="false" android:layout_width="50dp" android:layout_height="-2" android:layout_marginLeft="275dp" android:layout_marginTop="-17dp" android:hint="-%" android:ems="10" />
+		<TextView android:id="false" android:layout_width="100dp" android:layout_height="-2" android:layout_marginTop="-5dp" android:text="TI Mark:" android:ems="10" />
+		<TextView android:id="false" android:layout_width="50dp" android:layout_height="-2" android:layout_marginLeft="75dp" android:layout_marginTop="-17dp" android:hint="-%" android:ems="10" />
+		<TextView android:id="false" android:layout_width="100dp" android:layout_height="-2" android:layout_marginLeft="200dp" android:layout_marginTop="-17dp" android:text="C Mark:" android:ems="10" />
+		<TextView android:id="false" android:layout_width="50dp" android:layout_height="-2" android:layout_marginLeft="275dp" android:layout_marginTop="-17dp" android:hint="-%" android:ems="10" />
+	</LinearLayout>
+	<com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto" android:id="false" android:layout_width="-1" android:layout_height="-2" ads:adSize="BANNER" ads:adUnitId="ca-app-pub-4733259834848580/3278750952" />
+</LinearLayout>

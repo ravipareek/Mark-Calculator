@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="0dp">
+	<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:ems="10" android:inputType="0x2001">
+		<requestFocus />
+	</EditText>
+	<EditText android:id="false" android:layout_width="75dp" android:layout_height="-2" android:layout_marginTop="10dp" android:hint="Mark" android:inputType="0x2002" />
+	<EditText android:id="false" android:layout_width="75dp" android:layout_height="-2" android:layout_marginTop="0dp" android:hint="Out of" android:inputType="0x2002" />
+	<Spinner android:id="false" android:layout_width="-2" android:layout_height="40dp" android:layout_marginLeft="75dp" android:layout_marginTop="-80dp" />
+	<Spinner android:id="false" android:layout_width="-2" android:layout_height="40dp" android:layout_marginLeft="75dp" android:layout_marginTop="0dp" />
+	<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="200dp" android:layout_marginTop="5dp" android:text="Save" />
+</LinearLayout>

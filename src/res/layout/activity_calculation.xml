@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android1="http://schemas.android.com/apk/res/android" android1:debuggable="true" android1:orientation="1" android1:id="false" android1:paddingLeft="16dp" android1:paddingTop="16dp" android1:paddingRight="16dp" android1:paddingBottom="16dp" android1:layout_width="-1" android1:layout_height="-2">
+	<TabHost android1:id="false" android1:layout_width="-1" android1:layout_height="-2">
+		<LinearLayout android1:orientation="1" android1:layout_width="-1" android1:layout_height="-1">
+			<TabWidget android1:id="resourceId:0x1020013" android1:layout_width="-1" android1:layout_height="-2" />
+			<FrameLayout android1:id="resourceId:0x1020011" android1:layout_width="-1" android1:layout_height="-1">
+				<LinearLayout android1:id="false" android1:layout_width="-1" android1:layout_height="-1">
+					<include layout="@layout/tab1" />
+				</LinearLayout>
+				<LinearLayout android1:id="false" android1:layout_width="-1" android1:layout_height="-1">
+					<include layout="@layout/tab2" />
+				</LinearLayout>
+				<LinearLayout android1:id="false" android1:layout_width="-1" android1:layout_height="-1">
+					<include layout="@layout/tab3" />
+				</LinearLayout>
+			</FrameLayout>
+		</LinearLayout>
+	</TabHost>
+</LinearLayout>

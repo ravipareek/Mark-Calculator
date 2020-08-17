@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceScreen android:persistent="false" android:title="Course 1" android:key="setup_Course_1" android:summary="Setup Class 1">
+		<EditTextPreference android:title="Course 1 Name" android:key="course1" android:summary="Enter Course 1 Name" />
+		<EditTextPreference android:title="Knowledge and Understanding Weight" android:key="Course1KU" android:summary="Enter Course 1 Knowledge and Understanding Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Making Connections/Application Weight" android:key="Course1MC" android:summary="Enter Course 1 Making Connections/Application Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Thinking and Inquiry Weight" android:key="Course1TI" android:summary="Enter Course 1 Thinking and Inquiry Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Communication Weight" android:key="Course1C" android:summary="Enter Course 1 Communication Weight" android:inputType="0x2" />
+	</PreferenceScreen>
+	<PreferenceScreen android:persistent="false" android:title="Course 2" android:key="setup_Course_2" android:summary="Setup Class 2">
+		<EditTextPreference android:title="Course 2 Name" android:key="course2" android:summary="Enter Course 2 Name" />
+		<EditTextPreference android:title="Knowledge and Understanding Weight" android:key="Course2KU" android:summary="Enter Course 2 Knowledge and Understanding Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Making Connections/Application Weight" android:key="Course2MC" android:summary="Enter Course 2 Making Connections/Application Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Thinking and Inquiry Weight" android:key="Course2TI" android:summary="Enter Course 2 Thinking and Inquiry Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Communication Weight" android:key="Course2C" android:summary="Enter Course 2 Communication Weight" android:inputType="0x2" />
+	</PreferenceScreen>
+	<PreferenceScreen android:persistent="false" android:title="Course 3" android:key="setup_Course_3" android:summary="Setup Class 3">
+		<EditTextPreference android:title="Course 3 Name" android:key="course3" android:summary="Enter Course 3 Name" />
+		<EditTextPreference android:title="Knowledge and Understanding Weight" android:key="Course3KU" android:summary="Enter Course 3 Knowledge and Understanding Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Making Connections/Application Weight" android:key="Course3MC" android:summary="Enter Course 3 Making Connections/Application Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Thinking and Inquiry Weight" android:key="Course3TI" android:summary="Enter Course 3 Thinking and Inquiry Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Communication Weight" android:key="Course3C" android:summary="Enter Course 3 Communication Weight" android:inputType="0x2" />
+	</PreferenceScreen>
+	<PreferenceScreen android:persistent="false" android:title="Course 4" android:key="setup_Course_4" android:summary="Setup Class 4">
+		<EditTextPreference android:title="Course 4 Name" android:key="course4" android:summary="Enter Course 4 Name" />
+		<EditTextPreference android:title="Knowledge and Understanding Weight" android:key="Course4KU" android:summary="Enter Course 4 Knowledge and Understanding Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Making Connections/Application Weight" android:key="Course4MC" android:summary="Enter Course 4 Making Connections/Application Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Thinking and Inquiry Weight" android:key="Course4TI" android:summary="Enter Course 4 Thinking and Inquiry Weight" android:inputType="0x2" />
+		<EditTextPreference android:title="Communication Weight" android:key="Course4C" android:summary="Enter Course 4 Communication Weight" android:inputType="0x2" />
+	</PreferenceScreen>
+</PreferenceScreen>
